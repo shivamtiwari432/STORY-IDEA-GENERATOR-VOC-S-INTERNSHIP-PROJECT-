@@ -40,3 +40,9 @@ Unlike a simple generator, this tool uses *prompt engineering techniques* to:
 * 📊 *Export Feature* → Save story prompts as PDF/Word
 * 🎤 *Voice Mode* → Generate story prompts from speech input
 
+
+## 👨‍💻 Author
+
+*Shivam Tiwari*
+AI & Prompt Engineering Internship Project – 2025
+
