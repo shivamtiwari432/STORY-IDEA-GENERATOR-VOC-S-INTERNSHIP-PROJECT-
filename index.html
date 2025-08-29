@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Story Idea Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🤖 AI Story Idea Generator</h1>
+    <p>Generate unique story prompts using AI-inspired logic and prompt engineering!</p>
+  </header>
+
+  <main>
+    <label>Choose Genre:</label>
+    <select id="genre">
+      <option>Fantasy</option>
+      <option>Science Fiction</option>
+      <option>Romance</option>
+      <option>Horror</option>
+      <option>Comedy</option>
+      <option>Adventure</option>
+      <option>Thriller</option>
+      <option>Mystery</option>
+    </select>
+
+    <label>Choose Theme:</label>
+    <select id="theme">
+      <option>Hope</option>
+      <option>Betrayal</option>
+      <option>Love</option>
+      <option>Revenge</option>
+      <option>Destiny</option>
+      <option>Survival</option>
+      <option>Friendship</option>
+      <option>Secrets</option>
+    </select>
+
+    <label>Character Type:</label>
+    <input type="text" id="characters" placeholder="e.g., Knight and Healer">
+
+    <button onclick="generateIdea()">✨ Generate Story Idea</button>
+    <button onclick="generateRandom()">🎲 Surprise Me!</button>
+
+    <section id="output"></section>
+
+    <h2>🕒 History</h2>
+    <ul id="history"></ul>
+  </main>
+
+  <footer>
+    <p>© 2025 Advanced Story Idea Generator | AI & Prompt Engineering Internship</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
